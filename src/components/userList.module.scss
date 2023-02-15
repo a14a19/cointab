@@ -1,0 +1,32 @@
+.userListSection {
+  width: 100%;
+  border-radius: 0%;
+  box-shadow: none;
+  position: relative;
+}
+
+table {
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+  thead {
+    background-color: var(--primary-color);
+    tr {
+      th {
+        flex: 1;
+        padding: 10px;
+      }
+    }
+  }
+  tbody{
+    tr{
+        td{
+            padding: 10px 10px 0px 10px;
+            i{
+                margin: 0px 6px;
+                cursor: pointer;
+            }
+        }
+    }
+  }
+}

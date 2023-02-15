@@ -3,6 +3,11 @@
 This repository consist of the frontend part of Cointab, created in collaboration with [Parag Vishwakarma](https://github.com/paragvish03)\
 Please feel free to visit the backend part at [Cointab](https://github.com/paragvish03/cointab).
 
+### Features
+1. CRUD operations
+2. Sign In & Sign Up validation from backend and displaying the errors at frontend
+3. JWT validation and storing JWT in cookies from backend and using 'withCredentials: true' in axios to accept & validate cookies 
+
 You may need to resolve CORS issues before running the backend with frontend and might want to change the port, as I've used 8008 for backend api consumption.
 
 ### CORS
